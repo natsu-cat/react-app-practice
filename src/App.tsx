@@ -1,11 +1,13 @@
 import React from 'react'
 import 'App.css'
-import TopPageContainer from 'container/TopPageContainer'
+import { Counter } from 'counter/Counter'
+// import TopPageContainer from 'container/TopPageContainer'
 
 const App: React.FC = () => {
   return (
     <React.Fragment>
-      <TopPageContainer />
+      <Counter />
+      {/* <TopPageContainer /> */}
     </React.Fragment>
   )
 }
